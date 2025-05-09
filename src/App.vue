@@ -1,26 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Teleport to="#ListHeader">
+    <ListHeader />
+  </Teleport>
+
+  <div class="main">
+    <router-view />
+  </div>
+
+  <Teleport to="#ListFooter">
+    <ListFooter />
+  </Teleport>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ListHeader from './components/ListHeader.vue'
+import ListFooter from './components/ListFooter.vue'
+// import ToDoListBox from './components/sub components/toDoListBox.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ListHeader,
+    ListFooter
+    // ToDoListBox
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

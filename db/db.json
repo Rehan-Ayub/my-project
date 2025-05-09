@@ -1,0 +1,64 @@
+{
+  "Tasks": [
+    {
+      "id": "1",
+      "taskTitle": "Math Homework",
+      "taskDescription": "Complete all exercises from chapter 5 including word problems and geometry practice, and revise multiplication concepts before the next math test.",
+      "taskStatus": "pending"
+    },
+    {
+      "id": "2",
+      "taskTitle": "Science Project",
+      "taskDescription": "Finish building the solar system model using foam balls, paint each planet accurately.",
+      "taskStatus": "pending"
+    },
+    {
+      "id": "3",
+      "taskTitle": "English Essay",
+      "taskDescription": "Write a detailed essay on 'My Favorite Book' explaining why you love the book, what you learned from it, and who your favorite character is.",
+      "taskStatus": "completed"
+    },
+    {
+      "id": "4",
+      "taskTitle": "Art Assignment",
+      "taskDescription": "Create a colorful landscape drawing .",
+      "taskStatus": "completed"
+    },
+    {
+      "id": "5",
+      "taskTitle": "History Notes",
+      "taskDescription": "Summarize key events of World War II, focusing on major battles, important leaders, and the impact of the war on different countries around the world.",
+      "taskStatus": "pending"
+    },
+    {
+      "id": "6",
+      "taskTitle": "Computer Class Practice",
+      "taskDescription": "Practice HTML and CSS lessons by creating a simple webpage that includes a heading, paragraph, image, and list to demonstrate basic coding skills.",
+      "taskStatus": "pending"
+    },
+    {
+      "id": "7",
+      "taskTitle": "Read a Chapter",
+      "taskDescription": "Read chapter three of 'The Jungle Book' and write five important points about Mowgli’s adventure and the challenges he faced in the jungle.",
+      "taskStatus": "completed"
+    },
+    {
+      "id": "8",
+      "taskTitle": "Geography Worksheet",
+      "taskDescription": "Label the continents and oceans on the provided map sheet, and answer all questions about landforms, climate zones, and natural resources mentioned in the chapter.",
+      "taskStatus": "completed"
+    },
+    {
+      "id": "9",
+      "taskTitle": "Prepare for Quiz",
+      "taskDescription": "Revise all topics from the last three science classes, especially photosynthesis, energy flow in ecosystems, and the water cycle, for tomorrow's quiz.",
+      "taskStatus": "pending"
+    },
+    {
+      "id": "10",
+      "taskTitle": "Clean School Bag",
+      "taskDescription": "Organize and clean your school bag by removing old papers, broken pencils, and other unnecessary items. Check each notebook for pending homework and insert timetable properly.",
+      "taskStatus": "pending"
+    }
+  ]
+}
